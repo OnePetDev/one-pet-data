@@ -54,4 +54,7 @@ Sent to Ad account HP1. Updated every 48 hrs.
 
 Tracking conversion metrics on these custom audiences to be able to compare CAC with regular audiences.
 
-> Updated on Dec 22nd, 2020 by Tanvir
+---
+```
+This article is incomplete, as of Dec 22nd, 2020.
+```

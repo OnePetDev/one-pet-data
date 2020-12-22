@@ -1,35 +1,35 @@
 ---
-title: One Pet Data Lake
+title: Data Lake
 nav_order: 2
 ---
 List of data sets and tables
 
 1. certapet_klaviyo
-  1. click
-  1. open
-  1. receive
-  1. unsubscribe
+  - click
+  - open
+  - receive
+  - unsubscribe
 
 1. certapet_stripe
-  1. balance_transactions
-  1. charges
-  1. coupons
-  1. customers
-  1. disputes
-  1. events
-  1. invoice_items
-  1. invoice_line_items
-  1. invoices
-  1. payout_transactions
-  1. payouts
-  1. plans
-  1. products
-  1. subscription_items
-  1. subscriptions
-  1. transfers
+  - balance_transactions
+  - charges
+  - coupons
+  - customers
+  - disputes
+  - events
+  - invoice_items
+  - invoice_line_items
+  - invoices
+  - payout_transactions
+  - payouts
+  - plans
+  - products
+  - subscription_items
+  - subscriptions
+  - transfers
 
 1. honest_paws_b2b_hubspot
-  1. deals
+  - deals
 
 1. honest_paws_klaviyo
 1. honest_paws_processed
@@ -54,4 +54,7 @@ List of data sets and tables
 1. sticky_orders_void_cancel_refund
 1. zendesksupport
 
-> This article is being written. Dec 22nd, 2020.
+---
+```
+This article is incomplete, as of Dec 22nd, 2020.
+```

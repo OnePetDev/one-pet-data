@@ -22,4 +22,7 @@ Cron: 0 6,18 * * * (America/Puerto_Rico)
 Scheduler: adding_charge_count_to_recharge_subs_id
 Cron: 0 6,18 * * * (America/Puerto_Rico)
 
-> This article is being written. Dec 22nd, 2020.
+---
+```
+This article is incomplete, as of Dec 22nd, 2020.
+```
