@@ -56,5 +56,5 @@ Tracking conversion metrics on these custom audiences to be able to compare CAC 
 
 ---
 ```
-This article is incomplete, as of Dec 22nd, 2020.
+Updated on Dec 22nd, 2020.
 ```

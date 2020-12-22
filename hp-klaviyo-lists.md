@@ -99,4 +99,7 @@ While charge count is not the perfect measure of subscription length, it is the 
 |18           |[Tx4WiN](https://www.klaviyo.com/list/Tx4WiN/onepetdata_m19-subs-billed-18-times-15-yr-completed)|M19 Subs: billed 18 times - 1.5 yr completed
 |24           |[Yvyj8c](https://www.klaviyo.com/list/Yvyj8c/onepetdata_m25-subs-billed-24-times-2-yr-completed)|M25 Subs: billed 24 times - 2 yr completed
 
-> Updated on Dec 22nd, 2020 by Tanvir
+---
+```
+Updated on Dec 22nd, 2020
+```
