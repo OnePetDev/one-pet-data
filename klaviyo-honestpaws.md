@@ -1,7 +1,7 @@
 ---
 title: Klaviyo Honest Paws
 has_children: false
-parent: data-lake
+parent: Data Lake
 nav_order: 1
 ---
 We have 5 tables in Klaviyo, explaining 5 events that an email subscriber can accomplish.

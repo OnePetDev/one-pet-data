@@ -1,7 +1,7 @@
 ---
 title: Data Tables
 has_children: false
-parent: data-lake
+parent: Data Lake
 nav_order: 100
 ---
 List of data sets and tables
