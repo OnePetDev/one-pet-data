@@ -1,10 +1,16 @@
 ---
-title: Honest Paws Klaviyo lists
-nav_order: 4
+title: Honest Paws - Klaviyo
+parent: Custom Audiences
+nav_order: 1
 ---
 # Klaviyo lists
 
 Klaviyo lists are sent from the One Pet Data Lake.
+
+#### Table of contents
+
+1. Table of contents
+{:toc}
 
 ## List of Active Subscribers
 
@@ -79,6 +85,10 @@ Total number of subs ever started by this customer.
 Number of active subscriptions at present.
 
 ## Lists by the duration of subscriptions
+
+```
+Bug: We are debugging the presence of inactive subscribers in these lists.
+```
 
 The following lists are created based on the number of times a subscription was charged.
 

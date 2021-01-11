@@ -4,6 +4,8 @@ has_children: false
 parent: Data Lake
 nav_order: 1
 ---
+# Klaviyo - Honest Paws
+
 We have 5 tables in Klaviyo, explaining 5 events that an email subscriber can accomplish.
 
 - open
@@ -13,6 +15,8 @@ We have 5 tables in Klaviyo, explaining 5 events that an email subscriber can ac
 - unsubscribe
 
 Data in each table can be categorizes as either **event** properties or **person** properties.
+
+#### Table of contents
 
 1. Table of contents
 {:toc}
@@ -247,5 +251,5 @@ The attributes associated with a person are listed below. Not everyone has all t
 
 ---
 ```
-This article is updated on Jan 11th, 2021.
+This page is updated on Jan 11th, 2021.
 ```

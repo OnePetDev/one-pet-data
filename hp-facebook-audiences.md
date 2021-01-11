@@ -1,12 +1,18 @@
 ---
-title: Honest Paws Facebook audiences
-nav_order: 3
+title: Honest Paws - Facebook
+parent: Custom Audiences
+nav_order: 2
 ---
 # Facebook custom audiences
 
 The facebook custom audiences start with the name `Hightouch -`
 
 The audiences are configured in the Hightouch connector.
+
+#### Table of contents
+
+1. Table of contents
+{:toc}
 
 ## Hightouch - LTV > 200
 
