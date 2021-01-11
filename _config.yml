@@ -1,3 +1,6 @@
+# Except the next line, everything is copied from [link](https://github.com/pmarsceill/just-the-docs/blob/master/_config.yml)
+remote_theme: pmarsceill/just-the-docs
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole site, values
