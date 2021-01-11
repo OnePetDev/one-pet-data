@@ -9,6 +9,7 @@ nav_order: 1
 Klaviyo lists are sent from the One Pet Data Lake.
 
 #### Table of contents
+{: .no_toc }
 
 1. Table of contents
 {:toc}
