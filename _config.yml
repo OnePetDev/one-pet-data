@@ -21,9 +21,6 @@ description: One Pet's Documentation Hub
 baseurl: "/one-pet-data" # the subpath of your site, e.g. /blog
 url: "https://onepetdev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Except the next line, everything is copied from [link](https://github.com/pmarsceill/just-the-docs/blob/master/_config.yml)
-remote_theme: pmarsceill/just-the-docs
-
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
 , "docs/tests/"]
