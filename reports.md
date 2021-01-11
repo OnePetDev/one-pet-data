@@ -6,6 +6,6 @@ has_children: true
 # Reports and dashboards
 {: .no_toc }
 
-This page will list the reports we have.
+A list of the reports we have.
 
 Under construction.

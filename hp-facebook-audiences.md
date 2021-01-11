@@ -10,11 +10,15 @@ The facebook custom audiences start with the name `Hightouch -`
 
 The audiences are configured in the Hightouch connector.
 
+---
+
 #### Table of contents
 {: .no_toc }
 
 1. Table of contents
 {:toc}
+
+---
 
 ## Hightouch - LTV > 200
 

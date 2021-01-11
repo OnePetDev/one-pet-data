@@ -5,7 +5,7 @@ nav_order: 5
 # Microservices in Google Cloud
 {: .no_toc }
 
-These microservices are run as Google Cloud Funcions triggered by  cron configured in the Google Cloud scheduler.
+Microservices run as Google Cloud Funcions triggered by  cron configured in the Google Cloud scheduler.
 
 ### Sending Active Subscribers from Recharge to klaviyo
 Scheduler: adding_charge_count_to_recharge_subs_id  

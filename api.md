@@ -6,19 +6,7 @@ has_children: true
 # One Pet API
 {: .no_toc }
 
-Documentation for the API.
-
----
-
-#### Table of contents
-{: .no_toc }
-
-1. Table of contents
-{:toc}
-
----
-
-APIs go here 
+Secrets of our API.
 
 ---
 ```
