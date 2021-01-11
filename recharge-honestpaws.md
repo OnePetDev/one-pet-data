@@ -5,10 +5,12 @@ parent: Data Lake
 nav_order: 2
 ---
 # Recharge - Honest Paws
+{: .no_toc }
 
 Key recharge data points
 
 #### Table of contents
+{: .no_toc }
 
 1. Table of contents
 {:toc}

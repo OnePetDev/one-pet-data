@@ -3,6 +3,7 @@ title: Microservices
 nav_order: 5
 ---
 # Microservices in Google Cloud
+{: .no_toc }
 
 These microservices are run as Google Cloud Funcions triggered by  cron configured in the Google Cloud scheduler.
 

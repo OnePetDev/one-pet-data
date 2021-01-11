@@ -5,6 +5,7 @@ parent: Data Lake
 nav_order: 1
 ---
 # Klaviyo - Honest Paws
+{: .no_toc }
 
 We have 5 tables in Klaviyo, explaining 5 events that an email subscriber can accomplish.
 
@@ -17,6 +18,7 @@ We have 5 tables in Klaviyo, explaining 5 events that an email subscriber can ac
 Data in each table can be categorizes as either **event** properties or **person** properties.
 
 #### Table of contents
+{: .no_toc }
 
 1. Table of contents
 {:toc}

@@ -4,6 +4,7 @@ parent: Custom Audiences
 nav_order: 1
 ---
 # Klaviyo lists
+{: .no_toc }
 
 Klaviyo lists are sent from the One Pet Data Lake.
 

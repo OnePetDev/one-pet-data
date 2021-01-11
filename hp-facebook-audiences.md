@@ -4,12 +4,14 @@ parent: Custom Audiences
 nav_order: 2
 ---
 # Facebook custom audiences
+{: .no_toc }
 
 The facebook custom audiences start with the name `Hightouch -`
 
 The audiences are configured in the Hightouch connector.
 
 #### Table of contents
+{: .no_toc }
 
 1. Table of contents
 {:toc}
