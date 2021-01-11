@@ -1,8 +1,9 @@
 ---
 title: Data Tables
 has_children: false
-parent: Data Lake
+parent: Data Schema
 nav_order: 100
+nav_exclude: true
 ---
 # List of data sets and tables
 
