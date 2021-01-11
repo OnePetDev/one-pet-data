@@ -1,10 +1,9 @@
 ---
-title: Data Lake
-nav_order: 2
-has_children: true
+title: Data Tables
+has_children: false
+parent: data-lake
+nav_order: 100
 ---
-The One Pet Data Lake is the evolving data base of customers and their actions across all One Pet brands. This section elaborates on the available data divided into their source applications.
-
 List of data sets and tables
 
 1. certapet_klaviyo
