@@ -33,7 +33,7 @@ Data about users receiving emails.
 
 | Field name | Description |
 |:-----------|:------------|
-| **campaign_name** | Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`]. |
+| **campaign_name** | Name of the campaign `Dog-HPNewsletter-01-07-21`, or in case of flows, name of the flow email `03 | Abandoned cart Recharge | Email 4 | Testimonial`. |
 | **subject** | Subject line. |
 | **timestamp** | The time of receiving email, in epoch format. |
 | **_flow** | The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns. |
@@ -55,7 +55,7 @@ Data about users opening emails.
 
 | Field name | Description |
 |:-----------|:------------|
-| **campaign_name** | Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`]. |
+| **campaign_name** | Name of the campaign `Dog-HPNewsletter-01-07-21`, or in case of flows, name of the flow email `03 | Abandoned cart Recharge | Email 4 | Testimonial`. |
 | **subject** | Subject line. |
 | **timestamp** | The time of opening email, in epoch format. |
 | **_flow** | The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns. |
@@ -77,7 +77,7 @@ Data about users clicking on email links.
 
 | Field name | Description |
 |:-----------|:------------|
-| **campaign_name** | Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`]. |
+| **campaign_name** | Name of the campaign `Dog-HPNewsletter-01-07-21`, or in case of flows, name of the flow email `03 | Abandoned cart Recharge | Email 4 | Testimonial`. |
 | **subject** | Subject line. |
 | **timestamp** | The time of clicking, in epoch format. |
 | **_flow** | The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns. |
@@ -118,7 +118,7 @@ Data when a user is unsubscribed.
 
 | Field name | Description |
 |:-----------|:------------|
-| **campaign_name** | Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`]. |
+| **campaign_name** | Name of the campaign `Dog-HPNewsletter-01-07-21`, or in case of flows, name of the flow email `03 | Abandoned cart Recharge | Email 4 | Testimonial`. |
 | **subject** | Subject line. |
 | **timestamp** | The time of clicking, in epoch format. |
 | **_flow** | The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns. |

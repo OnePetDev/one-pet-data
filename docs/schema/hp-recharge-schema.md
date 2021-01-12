@@ -1,23 +1,15 @@
 ---
 title: Recharge Honest Paws
-has_children: false
+has_children: true
 parent: Data Schema
 nav_order: 2
 ---
 # Recharge - Honest Paws
 {: .no_toc }
 
-Recharge maintains a record of customers, products, transactions, and subscriptions.
+Data in recharge is abstracted in three objects - Subscriptions, Customers and Addresses. Transactions are the Order object.
 
----
-
-#### Table of contents
-{: .no_toc }
-
-1. Table of contents
-{:toc}
-
----
+![Recharge data abstraction](/assets/images/recharge-subscription.png)
 
 ---
 ```
