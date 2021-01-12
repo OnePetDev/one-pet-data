@@ -7,15 +7,7 @@ nav_order: 1
 # Klaviyo - Honest Paws
 {: .no_toc }
 
-We have 5 tables in Klaviyo, explaining 5 events that an email subscriber can accomplish.
-
-- open
-- receive
-- click
-- subscribe_list
-- unsubscribe
-
-Data in each table can be categorizes as either **event** properties or **person** properties.
+The five tables in Klaviyo explains the five events that an email subscriber can do.
 
 ---
 
@@ -27,65 +19,116 @@ Data in each table can be categorizes as either **event** properties or **person
 
 ---
 
-## Event Properties
-
-These are the properties related to the events such as open, click and subscribe.
-
-### receive
+## receive
 
 Data about users receiving emails.
 
-* **campaign_name** - Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`].
-* **subject** - Subject line.
-* **timestamp** - The time of receiving email, in epoch format.
-* **_flow** - The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns.
-* **_message** - The unique ID for email. For example, `VbVYYT`.
-* **_variation** - The ID for variation when an AB test is used. For example, `VKrMX2`.
+**Unique ID**
 
-### open
+| Field name | Description |
+|:-----------|:------------|
+| **id** | Unique for every event of email received |
+
+**Key fields**
+
+| Field name | Description |
+|:-----------|:------------|
+| **campaign_name** | Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`]. |
+| **subject** | Subject line. |
+| **timestamp** | The time of receiving email, in epoch format. |
+| **_flow** | The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns. |
+| **_message** | The unique ID for email. For example, `VbVYYT`. |
+| **_variation** | The ID for variation when an AB test is used. For example, `VKrMX2`. |
+| **person.email** | User email address |
+
+## open
 
 Data about users opening emails.
 
-* **campaign_name** - Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`].
-* **subject** - Subject line.
-* **timestamp** - The time of opening email, in epoch format.
-* **_flow** - The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns.
-* **_message_interaction** - The unique ID for email. For example, `VbVYYT`.
-* **_variation** - The ID for variation when an AB test is used. For example, `VKrMX2`.
+**Unique ID**
 
-### click
+| Field name | Description |
+|:-----------|:------------|
+| **id** | Unique for every event of email opened for the first time |
+
+**Key fields**
+
+| Field name | Description |
+|:-----------|:------------|
+| **campaign_name** | Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`]. |
+| **subject** | Subject line. |
+| **timestamp** | The time of opening email, in epoch format. |
+| **_flow** | The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns. |
+| **_message_interaction** | The unique ID for email. For example, `VbVYYT`. |
+| **_variation** | The ID for variation when an AB test is used. For example, `VKrMX2`. |
+| **person.email** | User email address |
+
+## click
 
 Data about users clicking on email links.
 
-* **campaign_name** - Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`].
-* **subject** - Subject line.
-* **timestamp** - The time of clicking, in epoch format.
-* **_flow** - The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns.
-* **_message** - The unique ID for email. For example, `VbVYYT`.
-* **_variation** - The ID for variation when an AB test is used. For example, `VKrMX2`.
-* **url** - The clicked URL
+**Unique ID**
 
-### subscribe_list
+| Field name | Description |
+|:-----------|:------------|
+| **id** | Unique for every event of links clicked on emails |
+
+**Key fields**
+
+| Field name | Description |
+|:-----------|:------------|
+| **campaign_name** | Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`]. |
+| **subject** | Subject line. |
+| **timestamp** | The time of clicking, in epoch format. |
+| **_flow** | The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns. |
+| **_message** | The unique ID for email. For example, `VbVYYT`. |
+| **_variation** | The ID for variation when an AB test is used. For example, `VKrMX2`. |
+| **url** | The clicked URL. |
+| **person.email** | User email address |
+
+## subscribe_list
 
 Data when a user is subscribed to a list.
 
-* **list** - Name of the list, for example `Master List`.
-* **timestamp** - The time of clicking, in epoch format.
+**Unique ID**
 
-### unsubscribe
+| Field name | Description |
+|:-----------|:------------|
+| **id** | Unique for every event of a user subscribing to a list |
+
+**Key fields**
+
+| Field name | Description |
+|:-----------|:------------|
+| **list** | Name of the list, for example `Master List`. |
+| **timestamp** | The time of clicking, in epoch format. |
+| **person.email** | User email address |
+
+## unsubscribe
 
 Data when a user is unsubscribed.
 
-* **campaign_name** - Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`].
-* **subject** - Subject line.
-* **timestamp** - The time of clicking, in epoch format.
-* **_flow** - The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns.
-* **_message** - The unique ID for email. For example, `VbVYYT`.
-* **_variation** - The ID for variation when an AB test is used. For example, `VKrMX2`.
+**Unique ID**
+
+| Field name | Description |
+|:-----------|:------------|
+| **id** | Unique for every event of a user unsubscribing |
+
+**Key fields**
+
+| Field name | Description |
+|:-----------|:------------|
+| **campaign_name** | Name of the campaign [`Dog-HPNewsletter-01-07-21`], or in case of flows, name of the flow email [`03 | Abandoned cart Recharge | Email 4 | Testimonial`]. |
+| **subject** | Subject line. |
+| **timestamp** | The time of clicking, in epoch format. |
+| **_flow** | The unique Flow ID that is present on Klaviyo flow URLs. For example, `S9tX9V`. This is `null` for campaigns. |
+| **_message** | The unique ID for email. For example, `VbVYYT`. |
+| **_variation** | The ID for variation when an AB test is used. For example, `VKrMX2`. |
+| **person.email** | User email address |
 
 Additionally, we have data on the user's device, browser and operating system for each of the above events.
 
-## Person
+## Attributes available for the Person object
 
 The attributes associated with a person are listed below. Not everyone has all the data points.
 
@@ -257,5 +300,5 @@ The attributes associated with a person are listed below. Not everyone has all t
 
 ---
 ```
-This page is updated on Jan 11th, 2021.
+This page is updated on Jan 12th, 2021.
 ```
