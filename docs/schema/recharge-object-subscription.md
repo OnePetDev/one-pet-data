@@ -15,6 +15,7 @@ A subscription is a product added to an address. A Customer can create only 1 su
 If store owner wants to sell multiple products as one subscription on 1 address it can be done by creating a product in Shopify that consists of multiple products e.g. 3 types of vegetables in the box, set of different shirts, etc. This multiple products appear on the store as 1 product, therefore it can be sold in a single subscription to 1 or more addresses.
 
 ## Attributes
+
 |Field name |Data type |Description |
 |:----------|:---------|:-----------|
 |id|integer|Unique numeric identifier for the subscription.|

@@ -11,6 +11,7 @@ nav_order: 2
 The Customer object holds account and billing information. Email is unique on the customer; no two customers for a store can have the same email. Address is the child of the customer object. There can be many child addresses on a customer, but only one parent customer per address.
 
 ## Attributes
+
 |Field name |Data type |Description |
 |:----------|:---------|:-----------|
 |id|integer|Unique numeric identifier for the customer.|
