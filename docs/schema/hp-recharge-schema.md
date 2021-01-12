@@ -11,6 +11,8 @@ Data in recharge is abstracted in four key objects - Subscriptions, Customers, A
 
 ![](../../assets/images/recharge-subscriptions.png)
 
+An order is created after a charge is successfully processed. The order contains all the same json data as the charge. In case of a prepaid order creation, the order will be queued for a particular date and submitted on that date to shopify.
+
 ![](../../assets/images/recharge-order.png)
 
 ---

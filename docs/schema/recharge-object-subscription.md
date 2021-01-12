@@ -49,10 +49,7 @@ If store owner wants to sell multiple products as one subscription on 1 address 
 | shopify_variant_id | integer | Unique number identifier of the product variant in Shopify. |
 | sku | string | A unique identifier of the item in the fulfillment. In cases where SKU is blank, it will be dynamically pulled whenever it is used. |
 | sku_override | boolean | Flag that is automatically updated to true when SKU is passed on create or update. When sku_override is true, the sku on the subscription will be used to generate charges and orders. When sku_override is false, Recharge will dynamically fetch the SKU from the corresponding shopify variant. |
-| status | string | The status of the subscription. Valid values:
-• ACTIVE - The subscription is active.
-• CANCELLED - The subscription has been cancelled.
-• EXPIRED - The subscription has expired. This occurs when the maximum number of charges for a product has been reached.
+| status | string | The status of the subscription. Valid values: ACTIVE - The subscription is active. CANCELLED - The subscription has been cancelled. EXPIRED - The subscription has expired. This occurs when the maximum number of charges for a product has been reached. |
 | variant_title | string | The name of the variant in a shop’s catalog. |
 
 ---
