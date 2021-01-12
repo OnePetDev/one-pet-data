@@ -1,6 +1,4 @@
-title: "One Pet Data"
 remote_theme: pmarsceill/just-the-docs
-color_scheme: "dark"
 
 # Welcome to Jekyll!
 #
@@ -17,14 +15,13 @@ color_scheme: "dark"
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-# title: One Pet Data
-# description: One Pet's Documentation Hub
+title: One Pet Data
+description: One Pet's Documentation Hub
 baseurl: "/one-pet-data" # the subpath of your site, e.g. /blog
 url: "https://onepetdev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"]
+exclude: ["docs/tests/"]
 
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the ste is built.
@@ -85,7 +82,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2020-2021 <a href="https://one.pet">One Pet</a>"
+footer_content: "Copyright &copy; 2020-2021 One Pet"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -102,7 +99,7 @@ gh_edit_branch: "master" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-# color_scheme: nil
+color_scheme: "light"
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
@@ -125,4 +122,3 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 #  blanklines: false
 #  profile: false
   # ignore:
-  #   envs: all
