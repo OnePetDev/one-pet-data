@@ -9,9 +9,9 @@ nav_order: 2
 
 Data in recharge is abstracted in four key objects - Subscriptions, Customers, Addresses and Orders.
 
-![](https://github.com/OnePetDev/one-pet-data/blob/main/assets/images/recharge-subscriptions.png)
+![](../../assets/images/recharge-subscriptions.png)
 
-![](https://github.com/OnePetDev/one-pet-data/blob/main/assets/images/recharge-order.png)
+![](../../assets/images/recharge-order.png)
 
 ---
 ```

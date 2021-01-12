@@ -17,7 +17,7 @@ If store owner wants to sell multiple products as one subscription on 1 address 
 ## Attributes
 
 | Field name  | Data type  | Description  |
-| :---------- | :--------- | :----------- |
+|:----------|:---------|:-----------|
 | id | integer | Unique numeric identifier for the subscription. |
 | address_id | integer | Unique numeric identifier for the address the subscription is associated with. |
 | cancellation_reason | string | Reason provided for cancellation. |
@@ -53,7 +53,7 @@ If store owner wants to sell multiple products as one subscription on 1 address 
 • ACTIVE - The subscription is active.
 • CANCELLED - The subscription has been cancelled.
 • EXPIRED - The subscription has expired. This occurs when the maximum number of charges for a product has been reached.
-| variant_title | string | The name of the variant in a shop’s catalog. | 
+| variant_title | string | The name of the variant in a shop’s catalog. |
 
 ---
 
