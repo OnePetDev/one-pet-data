@@ -1,6 +1,7 @@
 ---
 title: One Pet Docs
 nav_order: 1
+layout: default
 ---
 ## Welcome to One Pet Docs
 
