@@ -41,8 +41,7 @@ If store owner wants to sell multiple products as one subscription on 1 address 
 | order_interval_unit | string | The frequency which a subscription should have the order created with. Valid values are “day”,“week”, and “month”. |
 | price | float | The price of the item before discounts, taxes, or shipping have been applied. |
 | product_title | string | The name of the product in a shop’s catalog. |
-| properties | array of dictionary objects |
-| A list of line item objects, each one containing information about the subscription. Custom key-value pairs can be installed here, they will appear on the connected queued charge and after it is processed on the order itself. |
+| properties | array of dictionary objects | A list of line item objects, each one containing information about the subscription. Custom key-value pairs can be installed here, they will appear on the connected queued charge and after it is processed on the order itself. |
 | quantity | integer | The number of items in the subscription. |
 | recharge_product_id | integer | Unique number identifier of the product in ReCharge. |
 | shopify_product_id | integer | Unique number identifier of the product in Shopify. |
