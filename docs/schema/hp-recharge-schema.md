@@ -9,7 +9,7 @@ nav_order: 2
 
 Data in recharge is abstracted in three objects - Subscriptions, Customers and Addresses. Transactions are the Order object.
 
-![Recharge data abstraction]("../../assets/images/recharge-subscription.png")
+![Recharge data abstraction](../../assets/images/recharge-subscription.png)
 
 ---
 ```

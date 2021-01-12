@@ -2,7 +2,7 @@
 title: The Customer Object
 has_children: false
 parent: Recharge Honest Paws
-grand-parent: Data Schema
+grand_parent: Data Schema
 nav_order: 2
 ---
 # The customer object

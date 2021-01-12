@@ -2,7 +2,7 @@
 title: The Subscription Object
 has_children: false
 parent: Recharge Honest Paws
-grand-parent: Data Schema
+grand_parent: Data Schema
 nav_order: 1
 ---
 # The subscription object
@@ -16,7 +16,7 @@ If store owner wants to sell multiple products as one subscription on 1 address 
 
 ## Attributes
 |Field name |Data type |Description |
-|:----------|:---------|:-----------| 
+|:----------|:---------|:-----------|
 |id|integer|Unique numeric identifier for the subscription.|
 |address_id|integer|Unique numeric identifier for the address the subscription is associated with.|
 |cancellation_reason|string|Reason provided for cancellation.|
