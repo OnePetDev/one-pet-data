@@ -7,7 +7,7 @@ has_children: false
 
 Here are the examples of custom checkouts for different billing models.
 
-These are lvie checkouts - you can buy using a credit card.
+These are live checkouts - you can buy using a credit card.
 
 ## Bundles
 
@@ -16,7 +16,11 @@ We can set price for each product individually.
 
 ## Subscription product with free gift
 
-[Example link from Recharge checkout builder](http://test-checkoutbuilder.honestpaws.com/redirect/5f21ae20a75d6/32936150269995)
+[Example link from Recharge checkout builder](https://checkoutbuilder.honestpaws.com/redirect/60229c695471e/31556309418027)
+
+## One time product with free gift
+
+[Example link from Recharge checkout builder](https://checkoutbuilder.honestpaws.com/redirect/60229f44a82a8/31556309418027)
 
 ## Annual [or semi-annual or quarterly] subscription
 
