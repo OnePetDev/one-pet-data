@@ -5,7 +5,7 @@ layout: default
 ---
 ## Welcome to One Pet Docs
 
-Documentation hub for One Pet's data architecture. Test
+Documentation hub for One Pet's data architecture.
 
 ### Drop us a line
 
