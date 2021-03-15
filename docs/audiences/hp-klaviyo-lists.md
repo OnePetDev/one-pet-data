@@ -32,7 +32,7 @@ These customers are identified from the following sources.
 
 * From sticky, all transactions under campaign "Honest Paws Affiliate"
 * From shopify, all transactions with `utm_affid`
-* From shopify, all transactions with `utm_medium` = `affiliate` and `utm_campaign` <> `14` 
+* From shopify, all transactions with `utm_medium` = `affiliate-dr` 
 
 ## Affiliate Rev Share Customers
 
@@ -44,10 +44,9 @@ Klaviyo list ID: [XhHvuD](https://www.klaviyo.com/list/XhHvuD/onepetdata_affilia
 
 List of customers whose first transaction was on affiliate revenue sharing campaigns.
 
-The customers are identified with `utm_source` = `affiliate` and following campaigns IDs
+The customers are identified with `utm_medium` = `affiliate`
 
-* 14
-* Affiliate team will add campaign IDs as required
+We are not expecting these transactions from sticky at this time.
 
 ## List of Active Subscribers
 
