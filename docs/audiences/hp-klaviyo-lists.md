@@ -18,6 +18,37 @@ Klaviyo lists are sent from the One Pet Data Lake.
 
 ---
 
+## Affiliate Direct Response Customers 
+
+Name of list in Klaviyo: **onepetdata_Affiliate Direct Response**
+
+Klaviyo list ID: [U3XKW8](https://www.klaviyo.com/list/U3XKW8/onepetdata_affiliate-direct-response)
+
+### Definition
+
+List of customers whose first transaction was on affiliate direct response funnels.
+
+These customers are identified from the following sources.
+
+* From sticky, all transactions under campaign "Honest Paws Affiliate"
+* From shopify, all transactions with `utm_affid`
+* From shopify, all transactions with `utm_medium` = `affiliate` and `utm_campaign` <> `14` 
+
+## Affiliate Rev Share Customers
+
+Name of list in Klaviyo: **onepetdata_Affiliate Rev Share**
+
+Klaviyo list ID: [XhHvuD](https://www.klaviyo.com/list/XhHvuD/onepetdata_affiliate-rev-share)
+
+### Definition
+
+List of customers whose first transaction was on affiliate revenue sharing campaigns.
+
+The customers are identified with `utm_source` = `affiliate` and following campaigns IDs
+
+* 14
+* Affiliate team will add campaign IDs as required
+
 ## List of Active Subscribers
 
 Name of list in Klaviyo: **onepetdata_Active Subscribers**
