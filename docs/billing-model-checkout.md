@@ -12,6 +12,7 @@ These are live checkouts - you can buy using a credit card.
 ## Bundles
 
 [Example link from Recharge checkout builder](https://checkout.honestpaws.com/l/7c9-2gx-rh8)
+
 We can set price for each product individually.
 
 ## Subscription product with free gift

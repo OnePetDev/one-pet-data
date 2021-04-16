@@ -39,7 +39,7 @@ When a user's session starts, does the user have any cookie saved?
 
 If yes, do nothing. 
 
-If not, save all UTMs in the cookie.
+If not, save all UTMs of the current session in the cookie.
 
 Cookie life is 365 days. When a order is place, UTM values are saved with the order by appending `_firsttouch` at the end. For example, `utm_source_firsttouch`.
 
