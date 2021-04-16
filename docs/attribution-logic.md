@@ -1,10 +1,11 @@
 ---
 title: Attribution Logic
 nav_order: 5
+has_children: false
 ---
 # Attribution Logic
 
-The same attribution logic is used across all One Pet web properties.
+The same attribution logic is used across all One Pet web properties - HP, CP, P5. Soon to be implemented in VP and OV.
 
 Every transaction is tagged with the following parameters-
 
@@ -42,4 +43,10 @@ If not, save all UTMs in the cookie.
 
 Cookie life is 365 days. When a order is place, UTM values are saved with the order by appending `_firsttouch` at the end. For example, `utm_source_firsttouch`.
 
+## Tracking Only Customers
+
 Attribution is saved on the orders. While orders are traceable all the way to channel and campaigns, users who are not customers are out of scope of this tracking. 
+
+## Channel LTV Calculation
+
+The UTMs of the first order of a customer takes the customer's entire LTV. As of Q1 2021, `_firsttouch` UTMs are not used in LTV calculation. 
