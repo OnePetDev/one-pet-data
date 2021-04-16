@@ -1,6 +1,6 @@
 ---
 title: Microservices
-nav_order: 5
+nav_order: 6
 ---
 # Microservices in Google Cloud
 {: .no_toc }
