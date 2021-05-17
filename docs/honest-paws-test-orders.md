@@ -4,7 +4,7 @@ nav_order: 6
 has_children: false
 ---
 # Honest Paws Test Orders
-{ .no_toc}
+{: .no_toc}
 
 Please inform the logistics team before placing any test order. Contact [Sergio Davilla](mailto:sergio@honestpaws.com), `@sergio` in slack. Notify about - 
 
@@ -15,7 +15,7 @@ Please inform the logistics team before placing any test order. Contact [Sergio 
 ---
 
 #### Table of contents
-{ .no_toc}
+{: .no_toc}
 
 1. Table of contents
 {:toc}
