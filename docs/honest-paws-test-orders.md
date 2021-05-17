@@ -4,6 +4,7 @@ nav_order: 6
 has_children: false
 ---
 # Honest Paws Test Orders
+{ .no_toc}
 
 Please inform the logistics team before placing any test order. Contact [Sergio Davilla](mailto:sergio@honestpaws.com), `@sergio` in slack. Notify about - 
 
@@ -11,6 +12,15 @@ Please inform the logistics team before placing any test order. Contact [Sergio 
 	- Whether the products will be shipped or not
 	- Inform the order numbers after test order is complete
 
+---
+
+#### Table of contents
+{ .no_toc}
+
+1. Table of contents
+{:toc}
+
+---
 
 ## Orders from shopify admin panel
 
