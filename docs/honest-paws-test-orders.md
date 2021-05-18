@@ -66,7 +66,7 @@ Please inform the logistics team before placing any test order. Contact [Sergio 
 1. Click continue
 1. Select the shipping method
 1. Add payment information
-1. Enter discount code: HPTESTORDER
+1. Enter discount code: `HPT-0521`
 1. Click Place order
 1. Cancel test order on Shopify and Recharge after your testing is complete.
 
@@ -80,7 +80,7 @@ Please inform the logistics team before placing any test order. Contact [Sergio 
 1. Click continue
 1. Select the shipping method
 1. Add payment information
-1. Enter discount code: HPTESTORDER
+1. Enter discount code: `HPT-0521` 
 1. Click Place order
 
-For any questions about test orders, please contact [Luis Pacheco](mailto:luis@honestpaws.com), slack `@Luis Pacheco`. 
+For any questions about test orders, please contact [Sergio Davilla](mailto:sergio@honestpaws.com), `@sergio` in slack.
